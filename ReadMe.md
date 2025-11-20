@@ -1,4 +1,4 @@
-# JavaScript DOM Review Modules (YouthCode Pilot)
+# JavaScript DOM Review Modules (YouthCode Off-Site)
 
 A focused collection of practical code examples to reinforce Front-End JavaScript interaction with the Document Object Model (DOM). This repository is a final review of core JavaScript topics, emphasizing interactive web development and best practices.
 
@@ -15,7 +15,7 @@ Core topics integrated across modules:
 
 ## Module Structure
 
-| Module                | Files                                         | Core Focus                                                                 | Key Concepts                                      |
+| Topic                | Files                                         | Core Focus                                                                 | Key Concepts                                      |
 |-----------------------|-----------------------------------------------|----------------------------------------------------------------------------|---------------------------------------------------|
 | 1. DOM Fundamentals   | dom_fundamentals.html, dom_fundamentals.js | Selecting elements, manipulating content (innerText / innerHTML), creating/removing nodes | Loops, basic functions                            |
 | 2. Dynamic CSS        | css_update.html, css_update.js               | Updating visual appearance via .style and .classList                      | Event listeners, conditional logic, objects      |
