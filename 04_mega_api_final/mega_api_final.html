@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Mega Review</title>
+    <style>
+        .service-item {
+            padding: 10px;
+            margin-bottom: 5px;
+            border-left: 5px solid #ccc;
+            background-color: white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        /* CSS Class Updates based on Priority */
+        .critical { border-color: red; } 
+        .high { border-color: orange; } 
+        .normal { border-color: green; }
+    </style>
+</head>
+<body>
+    <h1>Western Cape City Maintenance Status</h1>
+    <p>Loading Status: <span id="api-status" style="font-weight: bold;">Initialising...</span></p>
+    
+    <div id="maintenance-list">
+        <p>Data will load dynamically here.</p>
+    </div>
+
+    <script src="mega_api_final.js"></script>
+</body>
+</html>

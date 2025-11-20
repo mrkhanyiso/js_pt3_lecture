@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Handling</title>
+</head>
+<body>
+    <h1>Job Application Portal</h1>
+
+    <button id="log-click-btn">Log Button Click</button>
+    <hr>
+
+    <h2>ID Number Validation</h2>
+    <form id="id-validation-form">
+        <label for="sa-id-input">SA ID Number (13 Digits):</label>
+        <input type="text" id="sa-id-input" maxlength="13">
+        <p id="validation-feedback" style="color: red;"></p>
+        <button type="submit">Submit for Verification</button>
+    </form>
+    <hr>
+
+    <h2>Taxi Fare Calculator</h2>
+    <input type="number" id="distance-input-fare" value="5" min="1">
+    <button id="calc-fare-btn">Calculate Fare</button>
+    <p id="fare-result-display" style="font-weight: bold;"></p>
+    
+    <script src="form_events.js"></script>
+</body>
+</html>

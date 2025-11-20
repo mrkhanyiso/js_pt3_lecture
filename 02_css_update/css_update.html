@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS with JS</title>
+    <style>
+        .default-box { 
+            padding: 15px; 
+            margin: 10px 0; 
+            border: 2px solid grey; 
+            width: 300px;
+        }
+        .warning-text { color: orange; }
+        .success-text { color: green; }
+        /* CSS for Intermediate 1: Toggled Class */
+        .urgent-alert {
+            background-color: #ffdddd; /* Light Red */
+            border-color: red;
+            font-weight: bold;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Western Cape Traffic Control</h1>
+
+    <div id="road-status-1" class="default-box">Status: Unknown</div>
+    <div id="road-status-2" class="default-box">Status: Low Traffic</div>
+
+    <div id="toggled-alert" class="default-box">Weather Warning: High Wind Advisory.</div>
+    <button id="toggle-class-btn">Set Urgent Style</button>
+
+    <p>Current Traffic Density: <span id="density-level">45</span>%</p>
+    <div id="density-bar" style="width: 50%; height: 20px; background-color: lightblue;"></div>
+    <button id="random-density-btn">Change Density</button>
+
+    <div id="order-box" class="default-box">Biltong Order: Waiting...</div>
+    <button id="process-order-btn">Process Order</button>
+
+    <script src="css_update.js"></script>
+</body>
+</html>
